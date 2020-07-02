@@ -1,0 +1,32 @@
+Test Data 1:-
+
+firstNum=8, secondNum=2, thirdNum=6
+
+First conditional check:
+is firstNum<secondNum?
+No,so according to flow chart, 
+Second conditional check:
+is secondNum<thirdNum?
+Yes,so according to flow chart, 
+Third conditional check:
+is firstNum<thirdNum?
+No,so according to flow chart, values are ordered as:
+secondNum,thirdNum,firstNum
+i.e., 2,6,8
+
+
+
+Test Data 2:-
+
+firstNum=2, secondNum=3, thirdNum=8
+
+First conditional check:
+is firstNum<secondNum?
+Yes,so according to flow chart,
+Second conditional check:
+is firstNum<thirdNum?
+Yes,so according to flow chart,
+is secondNum<thirdNum?
+Yes,so according to flow chart, values are ordered as:
+firstNum,secondNum,thirdNum
+i.e., 2,3,8
