@@ -1,0 +1,49 @@
+<xml_api_reply version="1">
+	<weather module_id="0" tab_id="0" mobile_row="0" mobile_zipped="1" row="0" section="0">
+		<forecast_information>
+			<city data="Pittsford, NY" />
+			<postal_code data="14534" />
+			<latitude_e6 data="" />
+			<longitude_e6 data="" />
+			<forecast_date data="2011-03-12" />
+			<current_date_time data="2011-03-12 19:48:39 +0000" />
+			<unit_system data="US" />
+		</forecast_information>
+		<current_conditions>
+			<condition data="Mostly Cloudy" />
+			<temp_f data="42" />
+			<temp_c data="6" />
+			<humidity data="Humidity: 63%" />
+			<icon data="/ig/images/weather/mostly_cloudy.gif" />
+			<wind_condition data="Wind: NW at 7 mph" />
+		</current_conditions>
+		<forecast_conditions>
+			<day_of_week data="Sat" />
+			<low data="32" />
+			<high data="45" />
+			<icon data="/ig/images/weather/rain_snow.gif" />
+			<condition data="Rain and Snow" />
+		</forecast_conditions>
+		<forecast_conditions>
+			<day_of_week data="Sun" />
+			<low data="23" />
+			<high data="36" />
+			<icon data="/ig/images/weather/snow.gif" />
+			<condition data="Snow Showers" />
+		</forecast_conditions>
+		<forecast_conditions>
+			<day_of_week data="Mon" />
+			<low data="25" />
+			<high data="35" />
+			<icon data="/ig/images/weather/flurries.gif" />
+			<condition data="Flurries" />
+		</forecast_conditions>
+		<forecast_conditions>
+			<day_of_week data="Tue" />
+			<low data="35" />
+			<high data="48" />
+			<icon data="/ig/images/weather/partly_cloudy.gif" />
+			<condition data="Partly Cloudy" />
+		</forecast_conditions>
+	</weather>
+</xml_api_reply>
